@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gallery</title>
+</head>
+<style>
+  * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  header {
+    background-image: url(gallerybackground.jpg);
+    background-size: cover;
+    color: white;
+    padding-bottom: 6%;
+  }
+
+  a {
+    text-decoration: none;
+    margin: 8px;
+    color: aqua;
+
+  }
+  .heading{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.heading h1{
+  font-size: 60px;
+  color: aqua;
+}
+.parks{
+  display: flex;
+  justify-content: space-between;
+}
+.eatery{
+  display: flex;
+  justify-content: space-between;
+}
+</style>
+
+<body>
+  <header>
+    <div class="navigation">
+      <div class="logo">
+        <img src="gallerylogo.jpg" alt="logo" width="30px">
+      </div>
+      <div>
+        <a href="index.html">HOME</a>
+        <a href="tours.html">TOURS</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html">CONTACT US</a>
+      </div>
+
+      <div class="logo">
+        <img src="/searchicon.webp" alt="seach icon" width="30px">
+      </div>
+
+    </div>
+
+    <div class="heading">
+      <h1>OUR GALLERY</h1>
+       <p>Take a look at some of our best work</p>
+    </div>
+  </header>
+  <main>
+    <!--park section-->
+    <h4 style="text-align: center;">BRIDAL MAKEUP</h4>
+      <div>
+        <img src="BRIDAL MAKEUP.jpg">
+      </div>
+    <!--EVENTS section-->
+    <h4 style="text-align: center;">SPECIAL EVENTS</h4>
+      <div>
+        <img src="SPECIAL EVENT.jpg">
+    </div>
+  </main>
+</body>
+
+</html>
