@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+body {
+    background-color: white; /* Set background color to white */
+    background-image: url('background-image.jpg'); /* Add background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    position: relative; /* Set container to relative positioning */
+    z-index: 1; /* Ensure container is above the background image */
+    width: 90%;
+    margin: auto;
+}
+
+.services-hero {
+    position: relative; /* Set services-hero to relative positioning */
+    z-index: 2; /* Ensure services-hero is above the background image */
+    background-color: slategray;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services-hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services-hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.services-list {
+    position: relative; /* Set services-list to relative positioning */
+    z-index: 2; /* Ensure services-list is above the background image */
+    margin-top: 30px;
+}
+
+.services-list h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-list ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-list li {
+    width: calc(50% - 20px);
+    background-color: darkgoldenrod;
+    border: 1px solid aqua;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.services-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.services-list p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}

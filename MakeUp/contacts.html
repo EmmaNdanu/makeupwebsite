@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Our Makeup Company</title>
+    <link rel="stylesheet" href="contacts.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="contact">
+        <p>If you have any questions or inquiries, please don't hesitate to contact us:</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="location">
+            <h2>Our Location</h2>
+            <p>123 Beauty Street,<br>Cityville, Country</p>
+        </div>
+        <div class="social-links">
+            <h2>Connect with Us</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <!-- Add more social links as needed -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
